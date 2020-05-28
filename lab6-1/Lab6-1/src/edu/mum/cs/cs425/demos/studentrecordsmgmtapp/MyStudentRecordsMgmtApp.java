@@ -16,7 +16,7 @@ public class MyStudentRecordsMgmtApp extends Student{
 
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 	
 		  ArrayList<Student> students = new ArrayList <Student>(Arrays.asList(
 				new Student(110001,"Dave", LocalDate.of(1951, 11, 18)),
@@ -32,7 +32,7 @@ public class MyStudentRecordsMgmtApp extends Student{
 		 // printListOfStudents(students);
 		  //getListOfPlatinumAlumniStudents(students);
 		 // printHelloWorld(hello);
-		  findSecondBiggest(b);
+		 // findSecondBiggest(b);
 		
 		}
 	public static void printListOfStudents(ArrayList <Student> s1) {
